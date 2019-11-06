@@ -11,9 +11,13 @@ export default {
 </script>
 
 <style>
-*{
+*,
+*::before,
+*::after
+{
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 a{
   text-decoration: none;

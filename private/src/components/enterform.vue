@@ -14,5 +14,9 @@
     }
 </script>
 <style scoped>
-    
+    .enterform{
+        padding-top: 80px;
+        height: 1000px;
+        background-color: cornflowerblue;
+    }
 </style>

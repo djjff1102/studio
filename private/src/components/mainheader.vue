@@ -5,7 +5,7 @@
         </div>
         <div class="menu">
             <router-link to="index">index</router-link>
-            <router-link to="time">time</router-link>
+            <router-link to="timeline">time</router-link>
             <router-link to="enter">enter</router-link>
             <router-link to="about">about</router-link>
         </div>
@@ -28,7 +28,7 @@
         font-size: 20px;
         display: flex;
         justify-content: space-between;
-
+        z-index: 9999;
         min-width: 700px;
     }
     .menu{

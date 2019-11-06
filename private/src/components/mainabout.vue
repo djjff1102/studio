@@ -14,5 +14,9 @@
     }
 </script>
 <style scoped>
-    
+.about{
+    padding-top: 80px;
+    height: 1000px;
+    background-color: cornsilk;
+}
 </style>

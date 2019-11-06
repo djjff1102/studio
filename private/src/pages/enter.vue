@@ -1,19 +1,14 @@
 <template>
     <div class="enter">
-        <div class="mainheader">
-            <mainheader></mainheader>
-        </div>
-        <div class="enterFrom">
-            <h3>enter</h3>
-        </div>
-        <div class="mainfooter">
-            <mainfooter></mainfooter>
-        </div>
+        <mainheader></mainheader>
+        <enterform></enterform>
+        <mainfooter></mainfooter>
     </div>
 </template>
 <script>
     import mainheader from "../components/mainheader"
     import mainfooter from "../components/mainfooter"
+    import enterform from "../components/enterform"
     export default {
         name: 'enter',
         data(){
@@ -21,14 +16,11 @@
         },
         components: {
             mainheader,
-            mainfooter
+            mainfooter,
+            enterform
         }
     }
 </script>
 <style scoped>
-    .enterFrom{
-        padding-top: 80px;
-        height: 1000px;
-        background-color: cornflowerblue;
-    }
+
 </style>

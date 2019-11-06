@@ -1,23 +1,16 @@
 <template>
     <div class="about">
-        <div class="mainheader">
-            <mainheader></mainheader>
-        </div>
-        <div class="mainabout">
-            <h3>about</h3>
-        </div>
-        <div class="sendmessage">
-            <sendmessage></sendmessage>
-        </div>
-        <div class="mainfooter">
-            <mainfooter></mainfooter>
-        </div>
+        <mainheader></mainheader>
+        <mainabout></mainabout>
+        <sendmessage></sendmessage>
+        <mainfooter></mainfooter>
     </div>
 </template>
 <script>
     import mainheader from '../components/mainheader'
     import mainfooter from '../components/mainfooter'
     import sendmessage from '../components/sendmessage'
+    import mainabout from '../components/mainabout'
     export default {
         name: 'about',
         data(){
@@ -26,18 +19,12 @@
         components: {
             mainheader,
             mainfooter,
-            sendmessage
+            sendmessage,
+            mainabout
         }
     }
 </script>
 <style scoped>
-    .mainabout{
-        padding-top: 80px;
-        height: 1000px;
-        background-color: cornsilk;
-    }
-    .sendmessage{
-        height: 500px;
-        background-color: coral;
-    }
+
+
 </style>

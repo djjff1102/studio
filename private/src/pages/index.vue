@@ -1,17 +1,10 @@
 <template>
     <div class="index">
-        <div class="mainheader">
-            <mainheader></mainheader>
-        </div>
-        <div class="wheelplant">
-            <wheelplant></wheelplant>
-        </div>
-        <div class="introducelist">
-            <introducelist></introducelist>
-        </div>
-        <div class="mainfooter">
-            <mainfooter></mainfooter>
-        </div>
+        <mainheader></mainheader>
+        <wheelplant></wheelplant>
+        <introducelist></introducelist>
+        <sendmessage></sendmessage>
+        <mainfooter></mainfooter>
     </div>
 </template>
 <script>
@@ -19,6 +12,7 @@
     import wheelplant from '../components/wheelplant'
     import mainfooter from '../components/mainfooter'
     import introducelist from '../components/introducelist'
+    import sendmessage from '../components/sendmessage'
     export default {
         name: 'index',
         data(){
@@ -28,10 +22,10 @@
             mainheader,
             wheelplant,
             mainfooter,
-            introducelist
+            introducelist,
+            sendmessage
         }
     }
 </script>
 <style scoped>
-
 </style>

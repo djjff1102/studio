@@ -3,9 +3,8 @@ import Router from 'vue-router'
 import about from '@/pages/about'
 import enter from '@/pages/enter'
 import index from '@/pages/index'
-import time from '@/pages/time'
+import timeline from '@/pages/timeline'
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
@@ -28,9 +27,9 @@ export default new Router({
       component: enter
     },
     {
-      path: '/time',
-      name: 'time',
-      component: time
+      path: '/timeline',
+      name: 'timeline',
+      component: timeline
     }
 
   ]
